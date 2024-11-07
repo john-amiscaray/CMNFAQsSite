@@ -14,8 +14,12 @@ main {
     position: relative;
 }
 
-figure {
+#fig1 {
     width: 220px;
+}
+
+#fig2 {
+    width: 500px;
 }
 
 figcaption {
