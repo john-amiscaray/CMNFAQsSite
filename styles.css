@@ -1,0 +1,27 @@
+html {
+    font-family: Lato, Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+/* #main-nav {
+    margin-bottom: 15px;
+    background-color: blue;
+    color: white;
+    z-index: 10;
+    width: 20%;
+} */
+
+main {
+    position: relative;
+}
+
+figure {
+    width: 220px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
