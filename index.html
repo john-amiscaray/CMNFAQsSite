@@ -4,19 +4,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMN 300 FAQs</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <navbar id="main-nav">
-        <ul>
-            <li>
-                <a href="#course-structure-section">Course Structure</a>
-                <ul>
-                    <li><a href="#differences">CMN300 VS CPS Courses</a></li>
-                    <li><a href="#navigation">Navigating the D2L Site</a></li>
-                </ul>
-            </li>
-            <li>Excelling In This Course</li>
-        </ul>
+    <navbar id="main-nav" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#course-structure-section" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               Course Structure
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#differences">CMN300 VS CPS Courses</a></li>
+                                <li><a href="#navigation">Navigating the D2L Site</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#excelling-in-this-course" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               Excelling In This Course
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#excelling-in-assignments-and-quizzes">Excelling In Assignments</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul>
+
+            </ul>
+        </div>
     </navbar>
     <main>
         <h1>FAQs</h1>
@@ -26,8 +47,9 @@
             sure you as comfortable as possible.
         </section>
         <section id="course-structure-section">
+            <h2>On Course Structure</h2>
             <article id="differences">
-                <h2>Anticipating the differences (and similarities) between a communication class and a computer science class</h2>
+                <h3>Anticipating the differences (and similarities) between a communication class and a computer science class</h3>
                 <p>
                     Taking a professional communications course varies greatly in focus from a technical computer science couse.
                     While computer science courses focus on understanding logic, the functional structure of systems, and
@@ -40,7 +62,7 @@
                 </p>
             </article>
             <article id="navigation">
-                <h2>Navigating the D2L site</h2>
+                <h3>Navigating the D2L site</h3>
                 <p>
                     The structure of the D2L page may be confusing at first compared to what you are used to in CPS courses.
                     The main content of the D2L page you will need to access are split into these sections: the assignment
@@ -55,9 +77,25 @@
                          circled in red, the weekly course content circled in blue, and the course
                           slides in green.</figcaption>
                 </figure>
+            </article>
+        </section>
+        <section id="excelling-in-this-course">
+            <h2>On Excelling In This Course</h2>
+            <article id="excelling-in-assignments-and-quizzes">
+                <h3>Excelling in assignments and quizzes</h3>
+                <p>
+                    To excel in the assignments and quizzes, you need to make sure you read and understand the course content.
+                    Intentionally going over the reading and internalizing the important writing advice is key to this.
+                    The quizzes specifically will test you on the knowledge of the writing technicals you learned from the readings
+                    so you may want to write notes on the concepts beforehand. As for the assignments, they are a test of your ability to
+                    apply these concepts. If you need to, practice beforehand and go into detail analyzing any examples the text gives you.
+                </p>
+            </article>
+            <article id="">
 
             </article>
         </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </main> 
 </body>
 </html>
